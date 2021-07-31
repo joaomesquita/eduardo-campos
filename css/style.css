@@ -1,0 +1,53 @@
+/*   
+	Theme Name: Eduardo Campos
+	Theme URL: 
+	Description: Tema WordPress | Exclusivo - CSS, HTML, PHP e Wordpress.
+	Author: Alemaciell e João Mesquita
+	Author URI: 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+*{margin:0;padding:0;font-family:'Roboto Condensed',sans-serif}
+.header-page{display:flex;flex-direction:column;justify-content:center;align-items:center;background-color:#F9F9F9;background-position:center;background-repeat:no-repeat;background-size:cover}
+.home{height:100vh}
+.interna{height:800px}
+.session{padding:70px 0}
+.divider{display:flex;width:100%;justify-content:center;align-items:center;text-align:center}
+.divider:before,.divider:after{content:'';border-top:3px solid #d0d1d3;margin:0 20px 0 0;flex:1 0 20px}
+.divider:after{margin:0 0 0 20px}
+.btn.outline-color-secondary:hover{color:#fff;background-color:#e8ac3e}
+.font-12{font-size:12px}
+.font-15{font-size:15px}
+.font-18{font-size:18px}
+.font-20{font-size:20px}
+.font-24{font-size:24px}
+.font-32{font-size:32px}
+.font-48{font-size:48px}
+.font-150{font-size:150px}
+.font-180{font-size:180px}
+.color-light{color:#fff!important}
+.color-gray{color:#6d6e71}
+.color-primary{color:#38869e!important}
+.color-secondary{color:#e8ac3e!important}
+.outline-color-secondary{border-color:#e8ac3e}
+.bg-primary,.bg-sobre{background-color:#38869e!important}
+.bg-secondary,.bg-blog{background-color:#e8ac3e!important}
+.bg-blog {
+    background-image: url('../img/hashtag.png');
+    background-repeat: no-repeat; 
+    background-position: left;
+}
+.bg-post{background-color:#929496}
+.bg-podcast{background-color:#5c2975 !important; background-image: url('../img/bg_podcast.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+.bg-gray{background-color:#d0d1d3}
+.bg-light{background-color:#fff!important}
+.podcast_text{line-height: 140px;}
+
+
+@media (max-width: 992px) {
+    .interna{height:200px}
+
+    #navbarNavAltMarkup {
+        text-align: center;
+    }
+}
